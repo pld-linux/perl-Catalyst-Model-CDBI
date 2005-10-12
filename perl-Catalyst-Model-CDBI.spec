@@ -6,6 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Model-CDBI
 Summary:	Catalyst::Model::CDBI - Class::DBI model class for Catalyst
+Summary(pl):	Catalyst::Model::CDBI - klasa modelu Class::DBI dla Catalysta
 Name:		perl-Catalyst-Model-CDBI
 Version:	0.08
 Release:	1
@@ -26,6 +27,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is the "Class::DBI" model class for Catalyst. It's built on top
 of "Class::DBI::Loader"
+
+%description -l pl
+To jest klasa modelu Class::DBI dla Catalysta. Jest zbudowana w
+oparciu o Class::DBI::Loader.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
