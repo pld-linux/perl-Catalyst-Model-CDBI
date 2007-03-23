@@ -8,13 +8,13 @@
 Summary:	Catalyst::Model::CDBI - Class::DBI model class for Catalyst
 Summary(pl.UTF-8):	Catalyst::Model::CDBI - klasa modelu Class::DBI dla Catalysta
 Name:		perl-Catalyst-Model-CDBI
-Version:	0.08
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MR/MRAMBERG/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	15d56f59539fa4daa6a8b696736e079a
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	c9b3d6c90541a0440257823a2f715a99
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
