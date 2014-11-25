@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Catalyst
 %define	pnam	Model-CDBI
+%include	/usr/lib/rpm/macros.perl
 Summary:	Catalyst::Model::CDBI - Class::DBI model class for Catalyst
 Summary(pl.UTF-8):	Catalyst::Model::CDBI - klasa modelu Class::DBI dla Catalysta
 Name:		perl-Catalyst-Model-CDBI
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	96e2e24c2405b060c46525552f91ed4f
+URL:		http://search.cpan.org/dist/Catalyst-Model-CDBI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
