@@ -4,7 +4,6 @@
 
 %define	pdir	Catalyst
 %define	pnam	Model-CDBI
-%include	/usr/lib/rpm/macros.perl
 Summary:	Catalyst::Model::CDBI - Class::DBI model class for Catalyst
 Summary(pl.UTF-8):	Catalyst::Model::CDBI - klasa modelu Class::DBI dla Catalysta
 Name:		perl-Catalyst-Model-CDBI
